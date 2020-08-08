@@ -20,8 +20,10 @@ public class Objective9Lab3 {
           System.out.println( "Invalid input" );
       }
     }
+
+    scanner.close();
   }
-  
+
   public static void printMenu() {
     System.out.println("_____Menu_____");
     System.out.println("1: Say Hello");
